@@ -1,0 +1,23 @@
+{
+  "name": "gui-test-electron",
+  "version": "1.0.0",
+  "description": "Simple graphics test using electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package-win": "electron-packager . gui-test-electron --platform=win32 --arch=x64 --out=dist --overwrite"
+  },
+  "keywords": [
+    "gui",
+    "framework",
+    "electron",
+    "crossplatform"
+  ],
+  "author": "Milos Jovanovic <milos@tehnocad.rs>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^38.1.2",
+    "electron-packager": "^17.1.2"
+  }
+}
